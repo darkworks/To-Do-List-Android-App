@@ -26,6 +26,7 @@ public class Item {
      */
     public Item(String title, String text, Date dueDate)
     {
+        //this.title refers to the global variable
         this.title = title;
         this.text = text;
         this.passed = false;
