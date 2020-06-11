@@ -7,6 +7,7 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
+//for using sqlite database
 import android.database.sqlite.SQLiteDatabase;
 import android.graphics.Color;
 import android.os.Build;
@@ -141,6 +142,7 @@ public class MainActivity extends ActionBarActivity {
     public void getData() {
         List<Item> list = new ArrayList<>();
         Item tmp;
+        //creating an instance of sqlite class
         SQLiteDatabase mydatabase = openOrCreateDatabase("todolist", MODE_PRIVATE, null);
         mydatabase.execSQL("CREATE TABLE IF NOT EXISTS tasks(Titre VARCHAR, Date VARCHAR, Status VARCHAR, Txt VARCHAR, Cat VARCHAR);");
         Cursor resultSet = mydatabase.rawQuery("Select * from tasks", null);
