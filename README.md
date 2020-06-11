@@ -1,6 +1,6 @@
 # ToDoList Android App
 
-Third year Epitech project for the B5-Java Mobile module.
+This project is done for purpose of submitting it for evaluation at android club.
 
-Simple to do list app with some bonus features. Read the user manual to find more about it : https://github.com/Darkpingouin/todolist/blob/master/user_manual.pdf
+Anmol Choubey
 
